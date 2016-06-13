@@ -2,7 +2,8 @@
 
 MBTile Tile Merge tool
 
-USage: mergetiles.py 
+##USage:
+mergetiles.py 
 
   -src src_mbtiles_file
 
