@@ -3,13 +3,7 @@
 MBTile Tile Merge tool
 
 ##USage:
-mergetiles.py 
-
-  -src src_mbtiles_file
-
-  -dest dest_mbtiles_file
-
-  -zoom zoom_level
+mergetiles.py -src src_mbtiles_file -dest dest_mbtiles_file -zoom zoom_level1,zoom_level2,zoom_level3,...
 
 ex) python mergetiles -src src.mbtiles -dest dest.mbtiles -zoom 17,18,19
 
