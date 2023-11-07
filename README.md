@@ -1,14 +1,22 @@
 # MergeTiles
 
-MBTile Tile Merge tool
+MBTile tile merge tool.
 
-##USage:
-mergetiles.py -src src_mbtiles_file -dest dest_mbtiles_file -zoom zoom_level1,zoom_level2,zoom_level3,...
+## Install
+```
+git clone git@github.com:m05quit0/MergeTiles.git
+cd MergeTiles
+```
 
-ex) python mergetiles -src src.mbtiles -dest dest.mbtiles -zoom 17,18,19
+## Usage:
 
-'minZoom','maxZoom','bounds' entry of metadata table will be automatically update with max zoom level extent.
+```sh
+python mergetiles.py -src src_mbtiles_file -dest dest_mbtiles_file -zoom zoom_level1,zoom_level2,zoom_level3,...
+```
 
-Need python2.7 or later and sqlite3 python module.
+Example:
+```sh
+python mergetiles -src src.mbtiles -dest dest.mbtiles -zoom 17,18,19
+```
 
-
+'minZoom', 'maxZoom', 'bounds' entry of metadata table will be automatically update with max zoom level extent.
